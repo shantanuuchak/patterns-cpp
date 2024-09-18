@@ -1,4 +1,5 @@
 #include<iostream>
+#include <string>
 using namespace std;
 
 int main(){
@@ -7,8 +8,15 @@ int main(){
     cin >> userInput;
     int stringLen = userInput.length();
 
-    // strings always in double quotes
-    string a = "a";
-    a += "b";
-    cout << a;
+    // Reversed
+    string reversed = "";
+    for(int i=stringLen-1; i>=0; i--){
+        reversed += userInput.at(i);
+    }
+
+    if(userInput == reversed){
+        cout << "The input string is a palindrome" << endl;
+    } else {
+        cout << "The input string is not a palindrome" << endl;
+    }
 }
