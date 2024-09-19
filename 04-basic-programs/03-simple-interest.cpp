@@ -1,3 +1,4 @@
+// Calculate simple interest = (p*r*t)/100
 #include<iostream>
 using namespace std;
 
