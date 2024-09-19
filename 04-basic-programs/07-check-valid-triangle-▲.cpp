@@ -1,3 +1,4 @@
+// Check if given number is a valid triangle
 #include<iostream>
 using namespace std;
 
