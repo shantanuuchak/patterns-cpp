@@ -1,3 +1,4 @@
+// Taking inputs using cin
 #include<iostream>
 using namespace std;
 
