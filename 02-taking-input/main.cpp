@@ -1,8 +1,9 @@
 // Taking inputs using cin
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
     cout << "Enter a value: ";
     int n;
     cin >> n;

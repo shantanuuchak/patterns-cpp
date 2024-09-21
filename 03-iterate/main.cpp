@@ -1,10 +1,15 @@
 // Looping
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
+    cout << "Enter number: ";
+    int n;
+    cin >> n;
     // Always start from 0 and then compute formula
-    for(int i=0; i<10; i++){
-        cout << i + 1 << endl;
+    for (int i = 1; i <= n; i++)
+    {
+        cout << i << endl;
     }
 }
